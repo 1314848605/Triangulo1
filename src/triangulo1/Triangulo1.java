@@ -1,6 +1,6 @@
 
 package triangulo1;
-
+//Hecho: Nelson Zambrano
 /*
 Realice un ejercicio con programación orientada a Objetos
 que imprima en una matriz de MxM los siguientes triángulos segun corresponda.
@@ -44,3 +44,7 @@ public class Triangulo1 {
         trianguloB.imprimir();
     }
 }
+// DESCRIPCIÓN DE COSTES DE ESTIMACIÓN DE COSTES DEL PROYECTO:
+//T(proyecto) = T(Imprimir Triangulo A) + T(Imprimir Triangulo B)
+//T(proyecto) = [ta + tamaño*(2tc+3ta+2to) + 2tc] + [ta + tamaño*(2tc+3ta+2to) + 2tc ]
+//T(proyecto) = 2ta + tamaño*(4tc+6ta+4to) + 4tc 
